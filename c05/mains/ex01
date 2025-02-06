@@ -1,0 +1,10 @@
+int	main(void)
+{
+	#include <stdio.h>
+	int	num;
+	int	re;
+	num = 5;
+	re = ft_recursive_factorial(num);
+	printf("%d", re);
+	return 0;
+}

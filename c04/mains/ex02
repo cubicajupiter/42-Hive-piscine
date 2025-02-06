@@ -1,0 +1,6 @@
+int	main(void)
+{
+	#include <stdio.h>
+	int	i = -2147483648;
+	ft_putnbr(i);	
+}

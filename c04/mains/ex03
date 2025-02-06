@@ -1,0 +1,7 @@
+int	main(void)
+{
+	#include <stdio.h>
+	int	res = ft_atoi("  --++--+-438fifg");
+	printf("%d", res);
+	return (0);
+}

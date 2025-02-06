@@ -1,0 +1,16 @@
+int	main(void)
+{
+	#include <string.h>
+	char	dest[20] = "Hellooooo";
+	char	src[] = "world!!!!!!!!!!!!!!";
+	int	size = sizeof(dest);
+	int	len;
+	//printf("%lu\n", sizeof(dest));
+	//printf("%lu\n", sizeof(src));
+	len = ft_strlcat(dest, src, size);
+	//int	ref = strlcat(dest, src, size);
+	//printf("%d\n", len);
+	printf("%s", dest);
+	//printf("%d", ref);
+	return (0);
+}

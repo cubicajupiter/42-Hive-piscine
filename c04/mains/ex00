@@ -1,0 +1,8 @@
+int	main(void)
+{
+	#include <stdio.h>
+	char	str[8] = "Shiiet!";
+	int	number;
+	number = ft_strlen(str);
+	printf("%d", number);
+}

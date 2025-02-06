@@ -1,0 +1,15 @@
+int	main(void)
+{
+	#include <string.h>
+	#include <stdio.h>
+
+	char	str[] = "Let's see whatssup";
+	char	substr[] = "se";
+
+	char	*ret = ft_strstr(str, substr);
+	//char	*ref = strstr(str, substr);
+	printf("%s\n", ret);
+	//printf("%s\n", ref);
+	printf("%s", str);	
+	return(0);
+}

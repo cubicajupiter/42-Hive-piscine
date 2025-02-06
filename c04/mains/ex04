@@ -1,0 +1,7 @@
+int	main(void)
+{
+	int	nbr = 98495;
+	char	base[] = "01";
+	ft_putnbr_base(nbr, base);
+	return (0);
+}

@@ -1,0 +1,11 @@
+char	*ft_strncat(char *dest, char *src, unsigned int nb);
+#include <stdio.h>
+#include <string.h>
+int	main(void)
+{
+	char	s1[24] = "Hello world";
+	char	s2[] = " and good morning!";
+	ft_strncat(s1, s2, 13);
+	printf("%s", s1);
+	return (0);
+}

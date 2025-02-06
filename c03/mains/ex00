@@ -1,0 +1,15 @@
+int	ft_strcmp(char *s1, char *s2);
+
+int	main(void)
+{
+	#include <stdio.h>
+	#include <string.h>
+	char	s1[] = "Hello world";
+	char	s2[] = "Hello worlf";
+	int	diff;
+	diff = ft_strcmp(s1, s2);
+	int	ref = strcmp(s1, s2);
+	printf("%d", diff);
+	printf("%d", ref);
+	return (0);
+}

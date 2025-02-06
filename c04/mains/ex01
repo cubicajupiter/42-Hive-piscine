@@ -1,0 +1,6 @@
+int	main(void)
+{
+	char	str[] = "lmao let's go!";
+	ft_putstr(str);
+	return (0);
+}
